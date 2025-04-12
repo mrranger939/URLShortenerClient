@@ -55,7 +55,15 @@ const Dashboard = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-6">Link Analytics Dashboard</h1>
+        <div className="flex items-center justify-between mb-6">
+            <h1 className="text-2xl font-bold">Link Analytics Dashboard</h1>
+            <a
+            href="/"
+            className="bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium px-4 py-2 rounded transition"
+            >
+            Refresh
+            </a>
+        </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
         <div className="lg:col-span-2">
           <div className="bg-white p-4 rounded shadow">
